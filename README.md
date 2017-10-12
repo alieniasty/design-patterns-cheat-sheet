@@ -1,1 +1,1 @@
-# Design-patterns-cheat-sheet
+# Design patterns cheat sheet
