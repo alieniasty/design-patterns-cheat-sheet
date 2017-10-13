@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.0.0
-MinimumVisualStudioVersion = 10.0.0.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{819B12CC-9733-4AB7-8400-E4D710B9BC74}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "Creational\AbstractFactory\AbstractFactory.csproj", "{884AB29B-E281-4DF3-A8F7-404BEF2311E4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "Creational\AbstractFactory\AbstractFactory.csproj", "{884AB29B-E281-4DF3-A8F7-404BEF2311E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilder", "FluentBuilderWithDirector\FluentBuilder.csproj", "{79FE4BA4-576E-421F-B312-E72132E0E081}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,11 +19,16 @@ Global
 		{884AB29B-E281-4DF3-A8F7-404BEF2311E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{884AB29B-E281-4DF3-A8F7-404BEF2311E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{884AB29B-E281-4DF3-A8F7-404BEF2311E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79FE4BA4-576E-421F-B312-E72132E0E081}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79FE4BA4-576E-421F-B312-E72132E0E081}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79FE4BA4-576E-421F-B312-E72132E0E081}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79FE4BA4-576E-421F-B312-E72132E0E081}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{884AB29B-E281-4DF3-A8F7-404BEF2311E4} = {819B12CC-9733-4AB7-8400-E4D710B9BC74}
+		{79FE4BA4-576E-421F-B312-E72132E0E081} = {819B12CC-9733-4AB7-8400-E4D710B9BC74}
 	EndGlobalSection
 EndGlobal
