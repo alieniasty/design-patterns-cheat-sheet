@@ -1,9 +1,8 @@
-﻿using System;
-
-namespace FluentBuilder.Functional
+﻿namespace FluentBuilder.Functional
 {
     public class FluentProductBuilderFunctional
     {
+        /*First 'Product' is just used to pass the updated object to the 'output of the function'*/
         private Func<Product, Product> ConstructFunction;
 
         public FluentProductBuilderFunctional Begin()
