@@ -12,12 +12,12 @@
             _oldPhone = factory.GetOldPhone();
         }
 
-        public string GetSmartPhoneDetails()
+        public string GetSmartPhone()
         {
             return _smartPhone.GetDetails();
         }
         
-        public string GetOldPhoneDetails()
+        public string GetOldPhone()
         {
             return _oldPhone.GetDetails();
         }

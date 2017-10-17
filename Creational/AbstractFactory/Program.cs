@@ -10,8 +10,8 @@ namespace AbstractFactory
             
             var nokiaClient = new Client(mobilePhone);
             
-            Console.WriteLine(nokiaClient.GetOldPhoneDetails());
-            Console.WriteLine(nokiaClient.GetSmartPhoneDetails());
+            Console.WriteLine(nokiaClient.GetOldPhone());
+            Console.WriteLine(nokiaClient.GetSmartPhone());
 
             Console.Read();
         }
