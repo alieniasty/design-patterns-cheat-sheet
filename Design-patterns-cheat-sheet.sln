@@ -9,11 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "Creation
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FluentBuilder", "Creational\FluentBuilder\FluentBuilder.csproj", "{79FE4BA4-576E-421F-B312-E72132E0E081}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory", "Factory\Factory.csproj", "{7827A92E-9AD0-4EC4-B783-787E15DAAB21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory", "Factory\Factory.csproj", "{7827A92E-9AD0-4EC4-B783-787E15DAAB21}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prototype", "Prototype\Prototype.csproj", "{8494A16A-FEFA-437E-A96D-CEAD3E2BD574}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Prototype\Prototype.csproj", "{8494A16A-FEFA-437E-A96D-CEAD3E2BD574}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{867FEE80-008D-4CE0-9C57-DB17D53A6B69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Adapter\Adapter.csproj", "{D8193D25-E109-4707-9B61-FFB0B0A6936A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{8494A16A-FEFA-437E-A96D-CEAD3E2BD574}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8494A16A-FEFA-437E-A96D-CEAD3E2BD574}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8494A16A-FEFA-437E-A96D-CEAD3E2BD574}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8193D25-E109-4707-9B61-FFB0B0A6936A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8193D25-E109-4707-9B61-FFB0B0A6936A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8193D25-E109-4707-9B61-FFB0B0A6936A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8193D25-E109-4707-9B61-FFB0B0A6936A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,5 +52,6 @@ Global
 		{79FE4BA4-576E-421F-B312-E72132E0E081} = {819B12CC-9733-4AB7-8400-E4D710B9BC74}
 		{7827A92E-9AD0-4EC4-B783-787E15DAAB21} = {819B12CC-9733-4AB7-8400-E4D710B9BC74}
 		{8494A16A-FEFA-437E-A96D-CEAD3E2BD574} = {819B12CC-9733-4AB7-8400-E4D710B9BC74}
+		{D8193D25-E109-4707-9B61-FFB0B0A6936A} = {867FEE80-008D-4CE0-9C57-DB17D53A6B69}
 	EndGlobalSection
 EndGlobal
