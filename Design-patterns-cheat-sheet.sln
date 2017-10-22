@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26430.16
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Creational", "Creational", "{819B12CC-9733-4AB7-8400-E4D710B9BC74}"
 EndProject
@@ -15,9 +15,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prototype", "Creational\Pro
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Structural", "Structural", "{867FEE80-008D-4CE0-9C57-DB17D53A6B69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter", "Structural\Adapter\Adapter.csproj", "{D8193D25-E109-4707-9B61-FFB0B0A6936A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Structural\Adapter\Adapter.csproj", "{D8193D25-E109-4707-9B61-FFB0B0A6936A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bridge", "Structural\Bridge\Bridge.csproj", "{A1FEC162-105F-48C7-BC2C-C1208F8B3D92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractDecorator", "Structural\Decorator\AbstractDecorator.csproj", "{077EA5B7-7C02-4185-9FA4-D7F4D4FF1337}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InheritanceDecorator", "Structural\InheritanceDecorator\InheritanceDecorator.csproj", "{915F02F0-B28C-450D-8703-FC06420BF9D8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,10 +47,14 @@ Global
 		{D8193D25-E109-4707-9B61-FFB0B0A6936A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8193D25-E109-4707-9B61-FFB0B0A6936A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8193D25-E109-4707-9B61-FFB0B0A6936A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A1FEC162-105F-48C7-BC2C-C1208F8B3D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A1FEC162-105F-48C7-BC2C-C1208F8B3D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A1FEC162-105F-48C7-BC2C-C1208F8B3D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A1FEC162-105F-48C7-BC2C-C1208F8B3D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{077EA5B7-7C02-4185-9FA4-D7F4D4FF1337}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{077EA5B7-7C02-4185-9FA4-D7F4D4FF1337}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{077EA5B7-7C02-4185-9FA4-D7F4D4FF1337}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{077EA5B7-7C02-4185-9FA4-D7F4D4FF1337}.Release|Any CPU.Build.0 = Release|Any CPU
+		{915F02F0-B28C-450D-8703-FC06420BF9D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{915F02F0-B28C-450D-8703-FC06420BF9D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{915F02F0-B28C-450D-8703-FC06420BF9D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{915F02F0-B28C-450D-8703-FC06420BF9D8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +65,10 @@ Global
 		{7827A92E-9AD0-4EC4-B783-787E15DAAB21} = {819B12CC-9733-4AB7-8400-E4D710B9BC74}
 		{8494A16A-FEFA-437E-A96D-CEAD3E2BD574} = {819B12CC-9733-4AB7-8400-E4D710B9BC74}
 		{D8193D25-E109-4707-9B61-FFB0B0A6936A} = {867FEE80-008D-4CE0-9C57-DB17D53A6B69}
-		{A1FEC162-105F-48C7-BC2C-C1208F8B3D92} = {867FEE80-008D-4CE0-9C57-DB17D53A6B69}
+		{077EA5B7-7C02-4185-9FA4-D7F4D4FF1337} = {867FEE80-008D-4CE0-9C57-DB17D53A6B69}
+		{915F02F0-B28C-450D-8703-FC06420BF9D8} = {867FEE80-008D-4CE0-9C57-DB17D53A6B69}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A0054054-3EBA-479B-810D-90E106940CBC}
 	EndGlobalSection
 EndGlobal
