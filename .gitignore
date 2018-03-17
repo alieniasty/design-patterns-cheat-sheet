@@ -127,3 +127,7 @@ $RECYCLE.BIN/
 .DS_Store
 
 _NCrunch*
+/.vs/Design-patterns-cheat-sheet/v15/Server/sqlite3/storage.ide-wal
+/.vs/Design-patterns-cheat-sheet/v15/Server/sqlite3/storage.ide-shm
+/.vs/Design-patterns-cheat-sheet/v15/Server/sqlite3/storage.ide
+/.vs/Design-patterns-cheat-sheet/v15/Server/sqlite3/db.lock
